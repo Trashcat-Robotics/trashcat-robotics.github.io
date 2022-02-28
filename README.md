@@ -1,6 +1,6 @@
 # Trashcat Robotics
 
-Hosted with GitHub Pages at [trashcat-robotics.github.io](https://trashcat-combat-robotics.github.io)
+Hosted with GitHub Pages at [trashcat-robotics.github.io](https://trashcat-robotics.github.io)
 
 ## Build Requirements
 
