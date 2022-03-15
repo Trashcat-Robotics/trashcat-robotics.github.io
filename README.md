@@ -1,6 +1,6 @@
 # Trashcat Robotics Blog
 
-Hosted with GitHub Pages at [trashcat-robotics.github.io](trashcat-combat-robotics.github.io)
+Hosted with GitHub Pages at [trashcat-robotics.github.io](https://trashcat-robotics.github.io)
 
 ## Install Requirements
 
