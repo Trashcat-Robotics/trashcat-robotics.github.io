@@ -1,8 +1,8 @@
-# Trashcat Robotics
+# Trashcat Robotics Blog
 
 Hosted with GitHub Pages at [trashcat-robotics.github.io](trashcat-combat-robotics.github.io)
 
-## Build Requirements
+## Install Requirements
 
 See [requirements](https://jekyllrb.com/docs/installation/).
 
@@ -19,3 +19,14 @@ gem install jekyll bundler
 
 Blog was created with `jekyll new blog`.
 
+## Build
+
+If changes are made to the Gemfile:
+```
+bundle install
+```
+
+To view in browser:
+```
+bundle exec jekyll serve
+```
