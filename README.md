@@ -1,32 +1,41 @@
-# Trashcat Robotics Blog
+# Website
 
-Hosted with GitHub Pages at [trashcat-robotics.github.io](https://trashcat-robotics.github.io)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Install Requirements
+### Installation
 
-See [requirements](https://jekyllrb.com/docs/installation/).
-
-Ubuntu:
-
-```bash
-sudo apt-get install ruby-full build-essential zlib1g-dev
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-gem install jekyll bundler
+```
+$ yarn
 ```
 
-Blog was created with `jekyll new blog`.
+### Local Development
 
-## Build
-
-If changes are made to the Gemfile:
 ```
-bundle install
+$ yarn start
 ```
 
-To view in browser:
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
 ```
-bundle exec jekyll serve
+$ yarn build
 ```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
